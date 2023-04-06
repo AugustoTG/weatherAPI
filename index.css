@@ -1,0 +1,145 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+
+  }
+  :root{
+    font-size: 16px;
+  }
+  h1{
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    margin: 20px;
+    font-size: 3rem;
+  }
+  h2{
+    text-align: center;
+    color:#fff;
+    font-weight: 400;
+    margin: 20px 300px 20px 0;
+    font-size: 2.2rem;
+  }
+  body{
+    background-image: linear-gradient(#FF8100, #FFBA00);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  #nome__cidade{
+    padding: 10px 10px 10px 15px ;
+    width: 300px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: auto;
+  }
+  ::placeholder{
+    font-size: 1.2rem;
+  }
+  #caixa__card{
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    max-width: 35vw;
+    min-width: 450px;
+  }
+  #cidade__card{
+    text-align: left;
+    padding-left: 2rem;
+  }
+  #cidade__card > p{
+    display: inline-flex;
+    margin-top: 20px;
+    color: #575656;
+    font-size: 1.2rem;
+  }
+  strong{
+    color: #575656bd;
+    margin-left:1rem;
+  }
+  span{
+    color:#FF8100;
+  }
+  .margem{
+    margin-left: 35px;
+    
+  }
+  #cidade__card2{
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  #cidade__card2 > h3{
+    display: inline-flex;
+  }
+
+  #cidade__card3 > p, #cidade__card5 > p, #cidade__card6 > p{
+    display: inline-flex;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 500;
+  }
+  #cidade__card4 > p{
+    font-weight: 500;
+  }
+  #cidade__card4, #cidade__card5, #cidade__card6{
+    font-size: 1.2rem;
+  }
+  #cidade__card3{
+    text-align: left;
+    margin: 0 80px 15px 15px;
+  }
+  #cidade__card5{
+    text-align: left;
+    margin-right: 95px;
+    margin-bottom: 15px;
+  }
+  #entrada{
+    text-align: center;
+  }
+  button{
+    margin: 30px 0 30px 0;
+    padding: 10px 10px 10px 15px ;
+    width: 100px;
+    height: 54px;
+    font-size: 1.2rem;
+    text-align: left;
+
+  }
+  hr{
+    max-width: 50vw;
+    min-width: 300px;
+    margin: auto;
+    
+  }
+ #etiqueta{
+    text-align: center;
+    color:#fff;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 20px 95px 20px 0;
+ }
+ #etiqueta > label {
+  text-align: center;
+  padding-left: 30px;
+  
+ }
+ #espaço{
+  margin-left: 150px;
+ }
+ #capitais{
+  text-align: center;
+  color:#fff;
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin: 20px 95px 20px 0;
+}
+#capitais > p {
+  text-align: center;
+  padding-left: 30px;
+  
+ }
